@@ -2,11 +2,6 @@
 
 A modular, role-based web application built with **Flask**, **Flask-SQLAlchemy**, and **Bootstrap 5**. The platform connects trekking enthusiasts with certified trek leaders and system administrators, providing streamlined route discovery, guide approvals, slot reservations, and dashboard analytics.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/UI-Bootstrap%205-purple?logo=bootstrap&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -68,7 +63,6 @@ A modular, role-based web application built with **Flask**, **Flask-SQLAlchemy**
 ├── extensions.py       # Isolated Flask-SQLAlchemy and LoginManager instances
 ├── models.py           # Relational database models (User, StaffProfile, Trek, Booking)
 ├── seed.py             # Script to initialize database and seed initial Admin user
-├── openapi.yaml         # API definition specification file
 ├── requirements.txt    # Python dependencies
 ├── static/
 │   └── css/
